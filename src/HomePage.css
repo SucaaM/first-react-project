@@ -1,0 +1,37 @@
+#hero {
+    background: url('https://ik.imagekit.io/awwybhhmo/satellite_images/pizza/beyondmenu/about_us/7.jpg?tr=w-3840') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background-color: #F7B32D;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    transition: background-color 0.2s ease-out;
+}
+
+.btn:hover {
+    background-color: #FFD56A;
+}

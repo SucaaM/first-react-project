@@ -1,0 +1,24 @@
+.about-us {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsQVg35P7QJ-l-90v4uZgcXJujRapY10FQo0pA77VdfcDqWCNyK7JNAFnqqczjvGPwprk&usqp=CAU");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffd166;
+    font-size: 24px;
+    text-align: center;
+    padding: 50px;
+}
+
+.about-us h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}

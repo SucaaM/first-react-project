@@ -1,0 +1,85 @@
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px; /* Add this line to set the gap between cards */
+    padding: 40px;
+    justify-items: center;
+    align-items: center;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.menu-item h2 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.menu-item p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+/* Sample image URLs */
+.menu-item:nth-child(1) img {
+    content: url("https://www.foodandwine.com/thmb/pwFie7NRkq4SXMDJU6QKnUKlaoI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Ultimate-Veggie-Burgers-FT-Recipe-0821-5d7532c53a924a7298d2175cf1d4219f.jpg");
+}
+
+.menu-item:nth-child(2) img {
+    content: url("https://www.foodandwine.com/thmb/pwFie7NRkq4SXMDJU6QKnUKlaoI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Ultimate-Veggie-Burgers-FT-Recipe-0821-5d7532c53a924a7298d2175cf1d4219f.jpg");
+}
+
+.menu-item:nth-child(3) img {
+    content: url("https://www.foodandwine.com/thmb/pwFie7NRkq4SXMDJU6QKnUKlaoI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Ultimate-Veggie-Burgers-FT-Recipe-0821-5d7532c53a924a7298d2175cf1d4219f.jpg");
+}
+
+.menu-item:nth-child(4) img {
+    content: url("https://www.foodandwine.com/thmb/pwFie7NRkq4SXMDJU6QKnUKlaoI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Ultimate-Veggie-Burgers-FT-Recipe-0821-5d7532c53a924a7298d2175cf1d4219f.jpg");
+}
+
+.menu-item:nth-child(5) img {
+    content: url("https://www.foodandwine.com/thmb/pwFie7NRkq4SXMDJU6QKnUKlaoI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Ultimate-Veggie-Burgers-FT-Recipe-0821-5d7532c53a924a7298d2175cf1d4219f.jpg");
+}
+
+.menu-item:nth-child(6) img {
+    content: url("https://www.foodandwine.com/thmb/pwFie7NRkq4SXMDJU6QKnUKlaoI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Ultimate-Veggie-Burgers-FT-Recipe-0821-5d7532c53a924a7298d2175cf1d4219f.jpg");
+}
+
+.menu-item:nth-child(7) img {
+    content: url("https://cdn.pixabay.com/photo/2017/11/08/22/18/spaghetti-2931846_960_720.jpg");
+}
+
+.menu-item:nth-child(8) img {
+    content: url("https://cdn.pixabay.com/photo/2016/09/19/17/22/pizza-1681292_960_720.jpg");
+}
+
+.menu-item:nth-child(9) img {
+    content: url("https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_960_720.jpg");
+}
+
+.menu-item:nth-child(10) img {
+    content: url("https://cdn.pixabay.com/photo/2016/11/19/13/00/food-1833245_960_720.jpg");
+}
